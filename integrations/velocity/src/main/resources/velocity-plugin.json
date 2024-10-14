@@ -1,9 +1,9 @@
 {
-  "id": "bulletinboard",
-  "name": "BulletinBoard",
-  "description": "A simple bulletin board plugin",
+  "id": "simplehome",
+  "name": "SimpleHome",
+  "description": "Multilingual home plugins developed with an emphasis on lightweight",
   "version": "1.0.0",
-  "main": "net.rk4z.bulletinboard.BulletinBoard",
+  "main": "net.rk4z.s1.simpleHome.SimpleHome",
   "authors": [
     "Lars",
     "cotrin_d8"

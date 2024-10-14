@@ -3,7 +3,7 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-group = "net.rk4z"
+group = "net.rk4z.s1"
 version = "1.0.0"
 
 repositories {
