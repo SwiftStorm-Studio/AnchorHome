@@ -1,0 +1,113 @@
+langVersion: 1.0
+
+system:
+  log:
+    loading: "%s v%s をロード中..."
+    enabling: "%s v%s を起動中..."
+    disabling: "%s v%s を停止中..."
+    checking_update: "アップデートを確認中..."
+    all_version_count: "利用可能なバージョンが%s個あります。"
+    new_version_count: "現在のバージョンより新しいバージョンが%s個あります。"
+    latest_version_found: "新しいバージョン (%s) が利用可能です！あなたはバージョン%sを使用しています。"
+    view_latest_ver: "最新版はこちらから：%s"
+    you_are_using_latest: "最新バージョンのBulletinBoardを使用しています。"
+    failed_to_check_update: "更新のチェックに失敗しました：%s"
+    error_while_checking_update: "更新のチェック中にエラーが発生しました：%s"
+    language_file_not_found: "%sの言語ファイルが見つかりません！"
+    other:
+      unknown: "不明"
+      unknown_error: "不明なエラーが発生しました。"
+      error: "エラー"
+
+main:
+  gui:
+    title:
+      main_board: "メインボード"
+      post_editor: "投稿エディタ"
+      post_editor_for_edit: "編集用投稿エディタ"
+      my_posts: "自分の投稿"
+      all_posts: "全ての投稿"
+      deleted_posts: "削除された投稿"
+      delete_post_selection: "削除する投稿を選択してください"
+      delete_post_permanently_selection: "完全に削除する投稿を選択してください"
+      edit_post_selection: "編集する投稿を選択してください"
+      restore_post_selection: "復元する投稿を選択してください"
+      delete_post_all_player_selection: "削除する他のプレイヤーの投稿を選択してください"
+      save_post_confirmation: "投稿を保存しますか？"
+      cancel_post_confirmation: "投稿をキャンセルしますか？"
+      delete_post_confirmation: "投稿を削除しますか？"
+      delete_post_permanently_confirmation: "投稿を完全に削除しますか？"
+      restore_post_confirmation: "投稿を復元しますか？"
+      delete_post_from_all_confirmation: "この投稿は完全に削除され、復元はできません。"
+      save_edit_confirmation: "編集を保存しますか？"
+      cancel_edit_confirmation: "編集をキャンセルしますか？"
+
+    button:
+      new_post: "新規投稿"
+      all_posts: "全ての投稿"
+      my_posts: "自分の投稿"
+      deleted_posts: "削除された投稿"
+      about_plugin: "プラグインについて"
+      settings: "設定"
+      help: "ヘルプ"
+
+      edit_post: "投稿を編集"
+      delete_post: "投稿を削除"
+      restore_post: "投稿を復元"
+      delete_post_permanently: "投稿を完全に削除"
+      delete_post_others: "他のユーザーの投稿を削除"
+      delete_post_from_all: "他のユーザーの投稿を削除"
+      cancel_confirm_save_post: "投稿の編集に戻る"
+      preview_post: "投稿をプレビュー"
+      confirm_save_post: "投稿を保存"
+      continue_post: "投稿を続ける"
+      confirm_cancel_post: "投稿をキャンセル"
+      cancel_delete_post: "投稿の削除をキャンセル"
+      cancel_delete_post_from_all: "他のユーザーの投稿の削除をキャンセル"
+      confirm_delete_post: "投稿を削除"
+      confirm_delete_post_from_all: "他のユーザーの投稿を削除"
+      cancel_delete_post_permanently: "投稿の完全な削除をキャンセル"
+      confirm_delete_post_permanently: "投稿を完全に削除"
+      cancel_restore_post: "投稿の復元をキャンセル"
+      confirm_restore_post: "投稿を復元"
+      save_post: "投稿を保存"
+      cancel_post: "投稿をキャンセル"
+      prev_page: "前のページ"
+      next_page: "次のページ"
+
+      back_button: "戻る"
+
+    other:
+      anonymous: "匿名"
+      no_posts: "ここには何もないようです..."
+      no_title: "タイトルがありません..."
+      no_content: "内容がありません..."
+      unknown_player: "不明なプレイヤー"
+
+  message:
+    author_label: "作成者: %s"
+    title_label: "タイトル: %s"
+    content_label: "内容: %s"
+    date_label: "日付: %s"
+    enter_title: "投稿のタイトルを入力してください。"
+    enter_content: "投稿の内容を入力してください。"
+    enter_title_edit: "新しい投稿のタイトルを入力してください。"
+    enter_content_edit: "新しい投稿の内容を入力してください。"
+    when_post_draft_null: "投稿を保存できません：タイトル・コンテンツの両方をnullにすることはできません。"
+    post_saved: "投稿が保存されました。"
+    post_cancelled: "投稿がキャンセルされました。"
+
+  command:
+    message:
+      player_only: "このコマンドはプレイヤーのみ使用できます。"
+      unknown_command: "不明なコマンドです。ヘルプを表示するには /%s を入力してください。"
+
+    help:
+      help_header: "BulletinBoard ヘルプ"
+      help_openboard: "メインボードを開く。"
+      help_newpost: "新しい投稿を作成する。"
+      help_myposts: "自分の投稿を表示する。"
+      help_posts: "全ての投稿を表示する。"
+      help_settings: "設定を開く。"
+      help_deleted_posts: "削除された投稿を表示する。"
+      help_previewclose: "プレビューを閉じる。"
